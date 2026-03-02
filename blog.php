@@ -20,28 +20,28 @@
 
       <div class="news-card">
         <div class="news-img">
-          <img src="image1.jpg" alt="">
+          <img src="image/1.webp" alt="">
         </div>
         <h3>Planning a Wedding? Here’s How to Handle Guest Transportation Stress-Free</h3>
       </div>
 
       <div class="news-card">
         <div class="news-img">
-          <img src="image2.jpg" alt="">
+          <img src="image/5.webp" alt="">
         </div>
         <h3>Nainital Travel Guide – From Kanpur to the Hills</h3>
       </div>
 
       <div class="news-card">
         <div class="news-img">
-          <img src="image3.jpg" alt="">
+          <img src="image/3.webp" alt="">
         </div>
         <h3>Top 5 Religious Destinations Near Kanpur</h3>
       </div>
 
       <div class="news-card">
         <div class="news-img">
-          <img src="image4.jpg" alt="">
+          <img src="image/4.webp" alt="">
         </div>
         <h3>Why Tempo Traveller is Perfect for Group Tours</h3>
       </div>

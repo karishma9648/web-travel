@@ -15,7 +15,7 @@
 
   <!-- Background Video -->
   <video id="travelHeroVideo" autoplay muted loop playsinline>
-    <source src="image/videos-compressed/slide1.mp4" type="video/mp4">
+    <source src="image/videos-compressed/360 dd(1).mp4" type="video/mp4">
   </video>
 
   <!-- Overlay -->
@@ -222,7 +222,7 @@
 <div class="col-lg-3 col-md-6">
 <div class="itinerary-card">
 <div class="image-wrapper">
-<img src="image/portrait photos lower/HAR KI PAUDI .jpg" class="w-100">
+<img src="image/portrait photos lower/MAHABHODHI TEMPLE.jpg" class="w-100">
 </div>
 <div class="card-content mt-3">
 <span class="days">2 Days</span>
@@ -467,7 +467,7 @@ data-bs-interval="3000">
 <div class="col-lg-3 col-md-6">
 <div class="wwdo-card">
 <div class="wwdo-img">
-<img src="image1.jpg">
+<img src="image/1.webp">
 </div>
 <div class="wwdo-content">
 <h5>Corporate & Institutional Tie-Ups</h5>
@@ -479,7 +479,7 @@ data-bs-interval="3000">
 <div class="col-lg-3 col-md-6">
 <div class="wwdo-card">
 <div class="wwdo-img">
-<img src="image2.jpg">
+<img src="image/2.webp">
 </div>
 <div class="wwdo-content">
 <h5>Customized Tour Packages</h5>
@@ -491,7 +491,7 @@ data-bs-interval="3000">
 <div class="col-lg-3 col-md-6">
 <div class="wwdo-card">
 <div class="wwdo-img">
-<img src="image3.jpg">
+<img src="image/3.webp">
 </div>
 <div class="wwdo-content">
 <h5>Local & Outstation Car Rentals</h5>
@@ -503,7 +503,7 @@ data-bs-interval="3000">
 <div class="col-lg-3 col-md-6">
 <div class="wwdo-card">
 <div class="wwdo-img">
-<img src="image4.jpg">
+<img src="image/1.webp">
 </div>
 <div class="wwdo-content">
 <h5>Bus & Tempo Traveller Rentals</h5>
@@ -521,7 +521,7 @@ data-bs-interval="3000">
 <div class="col-lg-3 col-md-6">
 <div class="wwdo-card">
 <div class="wwdo-img">
-<img src="image4.jpg">
+<img src="image/4.webp">
 </div>
 <div class="wwdo-content">
 <h5>Bus & Tempo Traveller Rentals</h5>
@@ -532,7 +532,7 @@ data-bs-interval="3000">
 <div class="col-lg-3 col-md-6">
 <div class="wwdo-card">
 <div class="wwdo-img">
-<img src="image3.jpg">
+<img src="image/2.webp">
 </div>
 <div class="wwdo-content">
 <h5>Local & Outstation Car Rentals</h5>
@@ -543,7 +543,7 @@ data-bs-interval="3000">
 <div class="col-lg-3 col-md-6">
 <div class="wwdo-card">
 <div class="wwdo-img">
-<img src="image2.jpg">
+<img src="image/2.webp">
 </div>
 <div class="wwdo-content">
 <h5>Customized Tour Packages</h5>
@@ -554,7 +554,7 @@ data-bs-interval="3000">
 <div class="col-lg-3 col-md-6">
 <div class="wwdo-card">
 <div class="wwdo-img">
-<img src="image1.jpg">
+<img src="image/5.webp">
 </div>
 <div class="wwdo-content">
 <h5>Corporate & Institutional Tie-Ups</h5>
@@ -612,7 +612,7 @@ data-bs-interval="3500">
 <div class="col-lg-3 col-md-6">
 <div class="whyus-card">
 <div class="whyus-img">
-<img src="img1.jpg">
+<img src="image/w-1.webp">
 </div>
 <div class="whyus-content">
 <h5>Wide Range of Vehicles</h5>
@@ -628,7 +628,7 @@ we have the perfect ride for every occasion, group size, and budget.
 <div class="col-lg-3 col-md-6">
 <div class="whyus-card">
 <div class="whyus-img">
-<img src="img2.jpg">
+<img src="image/w-5.webp">
 </div>
 <div class="whyus-content">
 <h5>Experienced, Verified Drivers</h5>
@@ -644,7 +644,7 @@ and well-versed with routes across India. Your safety comes first.
 <div class="col-lg-3 col-md-6">
 <div class="whyus-card">
 <div class="whyus-img">
-<img src="img3.jpg">
+<img src="image/w-3.webp">
 </div>
 <div class="whyus-content">
 <h5>Clean, GPS-Enabled Vehicles</h5>
@@ -660,7 +660,7 @@ and equipped with GPS tracking for a smooth and secure ride.
 <div class="col-lg-3 col-md-6">
 <div class="whyus-card">
 <div class="whyus-img">
-<img src="img4.jpg">
+<img src="image/w-4.webp">
 </div>
 <div class="whyus-content">
 <h5>Customized Travel Packages</h5>
@@ -682,7 +682,7 @@ a weekend escape, or a multi-day tour — we tailor your trip.
 <div class="col-lg-3 col-md-6">
 <div class="whyus-card">
 <div class="whyus-img">
-<img src="img4.jpg">
+<img src="image/w-4.webp">
 </div>
 <div class="whyus-content">
 <h5>Customized Travel Packages</h5>
@@ -694,7 +694,7 @@ a weekend escape, or a multi-day tour — we tailor your trip.
 <div class="col-lg-3 col-md-6">
 <div class="whyus-card">
 <div class="whyus-img">
-<img src="img3.jpg">
+<img src="image/w-3.webp">
 </div>
 <div class="whyus-content">
 <h5>Clean, GPS-Enabled Vehicles</h5>
@@ -706,7 +706,7 @@ a weekend escape, or a multi-day tour — we tailor your trip.
 <div class="col-lg-3 col-md-6">
 <div class="whyus-card">
 <div class="whyus-img">
-<img src="img2.jpg">
+<img src="image/w-2.webp">
 </div>
 <div class="whyus-content">
 <h5>Experienced Drivers</h5>
@@ -718,7 +718,7 @@ a weekend escape, or a multi-day tour — we tailor your trip.
 <div class="col-lg-3 col-md-6">
 <div class="whyus-card">
 <div class="whyus-img">
-<img src="img1.jpg">
+<img src="image/w-1.webp">
 </div>
 <div class="whyus-content">
 <h5>Wide Range of Vehicles</h5>
