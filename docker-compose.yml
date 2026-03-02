@@ -15,7 +15,7 @@ services:
     restart: always
     environment:
       MYSQL_ROOT_PASSWORD: root
-      MYSQL_DATABASE: webmusic
+      MYSQL_DATABASE: webtravel
     ports:
       - "3307:3306"
 

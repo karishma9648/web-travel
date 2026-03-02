@@ -18,23 +18,23 @@
       <ul class="navbar-nav text-center" style="font-weight: 600; font-size: 20px; text-align: center; justify-content: center;">
 
         <li class="nav-item">
-          <a class="nav-link text-white" href="#">Home</a>
+          <a class="nav-link text-white" href="index.php">Home</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link text-white" href="#">About Us</a>
+          <a class="nav-link text-white" href="about.php">About Us</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link text-white" href="#">Terms & Condition</a>
+          <a class="nav-link text-white" href="terms.php">Terms & Condition</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link text-white" href="#">Blogs</a>
+          <a class="nav-link text-white" href="blog.php">Blogs</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link text-white" href="#">Contact Us</a>
+          <a class="nav-link text-white" href="contact.php">Contact Us</a>
         </li>
 
       </ul>

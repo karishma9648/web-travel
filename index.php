@@ -585,6 +585,267 @@ data-bs-slide="next">
 </div>
 </div>
 </section>
+<section class="whyus-section">
+
+<div class="container text-center">
+
+<h2 class="whyus-title">WHY TRAVEL WITH US</h2>
+
+<p class="whyus-desc">
+At Kanpur Tour and Travels, we do more than just take you from one place to another — 
+we deliver a safe, stress-free, and satisfying travel experience every time. 
+Here’s why thousands of customers choose us for their journeys:
+</p>
+
+<div id="whyusCarousel"
+class="carousel slide"
+data-bs-ride="carousel"
+data-bs-interval="3500">
+
+<div class="carousel-inner">
+
+<!-- SLIDE 1 -->
+<div class="carousel-item active">
+<div class="row g-4">
+
+<!-- CARD 1 -->
+<div class="col-lg-3 col-md-6">
+<div class="whyus-card">
+<div class="whyus-img">
+<img src="img1.jpg">
+</div>
+<div class="whyus-content">
+<h5>Wide Range of Vehicles</h5>
+<p>
+From hatchbacks and sedans to luxury cars, tempo travellers, and Volvo buses —
+we have the perfect ride for every occasion, group size, and budget.
+</p>
+</div>
+</div>
+</div>
+
+<!-- CARD 2 -->
+<div class="col-lg-3 col-md-6">
+<div class="whyus-card">
+<div class="whyus-img">
+<img src="img2.jpg">
+</div>
+<div class="whyus-content">
+<h5>Experienced, Verified Drivers</h5>
+<p>
+Our drivers are not just trained professionals — they’re punctual, polite,
+and well-versed with routes across India. Your safety comes first.
+</p>
+</div>
+</div>
+</div>
+
+<!-- CARD 3 -->
+<div class="col-lg-3 col-md-6">
+<div class="whyus-card">
+<div class="whyus-img">
+<img src="img3.jpg">
+</div>
+<div class="whyus-content">
+<h5>Clean, GPS-Enabled Vehicles</h5>
+<p>
+Every vehicle in our fleet is regularly sanitized, maintained,
+and equipped with GPS tracking for a smooth and secure ride.
+</p>
+</div>
+</div>
+</div>
+
+<!-- CARD 4 -->
+<div class="col-lg-3 col-md-6">
+<div class="whyus-card">
+<div class="whyus-img">
+<img src="img4.jpg">
+</div>
+<div class="whyus-content">
+<h5>Customized Travel Packages</h5>
+<p>
+We don’t believe in one-size-fits-all. Whether you need a quick ride,
+a weekend escape, or a multi-day tour — we tailor your trip.
+</p>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- DUPLICATE SLIDE FOR LOOP -->
+<div class="carousel-item">
+<div class="row g-4">
+
+<div class="col-lg-3 col-md-6">
+<div class="whyus-card">
+<div class="whyus-img">
+<img src="img4.jpg">
+</div>
+<div class="whyus-content">
+<h5>Customized Travel Packages</h5>
+<p>We tailor your journey exactly as per your needs.</p>
+</div>
+</div>
+</div>
+
+<div class="col-lg-3 col-md-6">
+<div class="whyus-card">
+<div class="whyus-img">
+<img src="img3.jpg">
+</div>
+<div class="whyus-content">
+<h5>Clean, GPS-Enabled Vehicles</h5>
+<p>Safe and sanitized vehicles with live GPS tracking.</p>
+</div>
+</div>
+</div>
+
+<div class="col-lg-3 col-md-6">
+<div class="whyus-card">
+<div class="whyus-img">
+<img src="img2.jpg">
+</div>
+<div class="whyus-content">
+<h5>Experienced Drivers</h5>
+<p>Professional and verified drivers for your comfort.</p>
+</div>
+</div>
+</div>
+
+<div class="col-lg-3 col-md-6">
+<div class="whyus-card">
+<div class="whyus-img">
+<img src="img1.jpg">
+</div>
+<div class="whyus-content">
+<h5>Wide Range of Vehicles</h5>
+<p>Choose from multiple vehicle categories.</p>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+</section>
+
+<section class="stories-section">
+
+<div class="container text-center">
+
+<p class="stories-tag">TRAVELER STORIES</p>
+<h2 class="stories-title">Journeys Remembered</h2>
+
+<p class="stories-subtitle">
+Hear from our valued clients who chose Kanpur Travels for seamless
+planning and memorable adventures.
+</p>
+
+<div class="row g-4 mt-4">
+
+<!-- CARD 1 -->
+<div class="col-lg-3 col-md-6">
+<div class="stories-card">
+<div class="stories-stars">
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+</div>
+
+<p class="stories-text">
+"The historical tour of Lucknow and surrounding areas was perfectly curated.
+Our guide was incredibly knowledgeable, bringing every monument to life.
+It was more than a trip; it was an experience."
+</p>
+
+<h6 class="stories-name">— Rohit Kapoor</h6>
+<p class="stories-type">Trip Type: Historical Tour</p>
+</div>
+</div>
+
+<!-- CARD 2 -->
+<div class="col-lg-3 col-md-6">
+<div class="stories-card">
+<div class="stories-stars">
+  <i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+</div>
+
+<p class="stories-text">
+"Planning a family vacation used to be a nightmare, but Kanpur Travels made it stress-free.
+They handled all the logistics, from flights to kid-friendly activities.
+The custom planning was exceptional."
+</p>
+
+<h6 class="stories-name">— Saumya Gupta</h6>
+<p class="stories-type">Trip Type: Family Vacation</p>
+</div>
+</div>
+
+<!-- CARD 3 -->
+<div class="col-lg-3 col-md-6">
+<div class="stories-card">
+<div class="stories-stars">
+  <i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+</div>
+
+<p class="stories-text">
+"The historical tour of Lucknow and surrounding areas was perfectly curated.
+Our guide was incredibly knowledgeable, bringing every monument to life.
+It was truly unforgettable."
+</p>
+
+<h6 class="stories-name">— Rohit Kapoor</h6>
+<p class="stories-type">Trip Type: Historical Tour</p>
+</div>
+</div>
+
+<!-- CARD 4 -->
+<div class="col-lg-3 col-md-6">
+<div class="stories-card">
+<div class="stories-stars">
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+<i class="fa-solid fa-star"></i>
+</div>
+
+<p class="stories-text">
+"Planning a family vacation used to be stressful, but Kanpur Travels made it easy.
+Everything was organized perfectly from start to finish."
+</p>
+
+<h6 class="stories-name">— Saumya Gupta</h6>
+<p class="stories-type">Trip Type: Family Vacation</p>
+</div>
+</div>
+
+</div>
+
+<!-- BUTTON -->
+<div class="stories-btn-wrapper">
+<a href="#" class="stories-btn">Start Planning Your Trip</a>
+</div>
+
+</div>
+</section>
 
 
 

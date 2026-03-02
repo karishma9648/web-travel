@@ -1,0 +1,439 @@
+.whyus-section{
+padding:100px 0;
+background:linear-gradient(135deg,#f7b84b,#f2a933);
+}
+
+.whyus-title{
+font-size:70px;
+font-weight:900;
+color:#fff;
+margin-bottom:20px;
+letter-spacing:2px;
+}
+
+.whyus-desc{
+max-width:900px;
+margin:0 auto 60px;
+color:#222;
+font-size:16px;
+}
+
+
+.whyus-card{
+border-radius:10px;
+overflow:hidden;
+transition:.4s ease;
+background:#000;
+height:100%;
+cursor:pointer;
+}
+
+.whyus-img img{
+width:100%;
+height:220px;
+object-fit:cover;
+}
+
+.whyus-content{
+padding:25px;
+text-align:left;
+color:#fff;
+background:#000;
+}
+
+.whyus-content h5{
+font-weight:700;
+margin-bottom:15px;
+}
+
+.whyus-content p{
+font-size:14px;
+opacity:.85;
+}
+
+
+.whyus-card:hover{
+transform:translateY(-12px);
+box-shadow:0 25px 40px rgba(0,0,0,.35);
+}
+
+
+
+@media(max-width:992px){
+.whyus-title{
+font-size:42px;
+}
+}
+
+@media(max-width:768px){
+.whyus-title{
+font-size:30px;
+}
+.whyus-img img{
+height:180px;
+}
+.whyus-content{
+padding:18px;
+}
+}
+
+.stories-section{
+padding:100px 0;
+background:url('travel-bg.jpg') center/cover no-repeat;
+position:relative;
+}
+
+.stories-section::before{
+content:'';
+position:absolute;
+inset:0;
+background:rgba(255,255,255,0.85);
+}
+
+.stories-section .container{
+position:relative;
+z-index:2;
+}
+
+
+.stories-tag{
+letter-spacing:2px;
+font-size:13px;
+font-weight:600;
+color:#555;
+}
+
+.stories-title{
+font-size:42px;
+font-weight:800;
+margin:10px 0 15px;
+}
+
+.stories-subtitle{
+max-width:650px;
+margin:0 auto;
+color:#444;
+}
+
+
+.stories-card{
+background:#fff;
+padding:30px;
+border-radius:12px;
+box-shadow:0 10px 25px rgba(0,0,0,0.08);
+text-align:left;
+height:100%;
+transition:.4s ease;
+}
+
+.stories-card:hover{
+transform:translateY(-10px);
+box-shadow:0 20px 40px rgba(0,0,0,0.15);
+}
+
+.stories-stars{
+color:#f5b301;
+font-size:18px;
+margin-bottom:15px;
+}
+.stories-stars i{
+margin-right:4px;
+}
+
+.stories-text{
+font-style:italic;
+color:#333;
+margin-bottom:25px;
+line-height:1.6;
+}
+
+.stories-name{
+font-weight:700;
+margin-bottom:3px;
+}
+
+.stories-type{
+font-size:14px;
+color:#666;
+margin:0;
+}
+
+
+.stories-btn-wrapper{
+margin-top:50px;
+}
+
+.stories-btn{
+background:#e53935;
+color:#fff;
+padding:14px 35px;
+border-radius:8px;
+font-weight:600;
+text-decoration:none;
+transition:.3s ease;
+display:inline-block;
+}
+
+.stories-btn:hover{
+background:#c62828;
+}
+
+
+@media(max-width:992px){
+.stories-title{
+font-size:32px;
+}
+}
+
+@media(max-width:768px){
+.stories-section{
+padding:70px 0;
+}
+.stories-title{
+font-size:26px;
+}
+.stories-card{
+padding:20px;
+}
+}
+
+
+.about-hero-section{
+    position: relative;
+    height: 500px;
+    background: url('about-bg.jpg') center center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.about-hero-overlay{
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.45);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.about-hero-title{
+    color: #fff;
+    font-size: 70px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    margin: 0;
+}
+
+
+
+@media (max-width: 992px){
+    .about-hero-section{
+        height: 400px;
+    }
+    .about-hero-title{
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 768px){
+    .about-hero-section{
+        height: 300px;
+    }
+    .about-hero-title{
+        font-size: 36px;
+    }
+}
+
+
+.contact-main-section{
+    background:#f3f3f3;
+    padding:80px 8%;
+    position:relative;
+}
+
+.contact-main-title{
+    text-align:center;
+    font-size:90px;
+    font-weight:800;
+    color:#bdbdbd;
+    margin-bottom:60px;
+}
+
+
+.contact-wrapper{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    gap:50px;
+}
+
+
+.contact-left{
+    flex:1;
+}
+
+.contact-subtitle{
+    font-weight:700;
+    margin-bottom:30px;
+    border-bottom:2px solid #000;
+    display:inline-block;
+    padding-bottom:5px;
+}
+
+.contact-info-box{
+    display:flex;
+    gap:15px;
+    margin-bottom:25px;
+}
+
+.contact-icon{
+    color:red;
+    font-size:20px;
+    margin-top:5px;
+}
+
+.contact-info-box p{
+    margin:5px 0 0;
+    font-size:14px;
+}
+
+
+.contact-divider{
+    width:1px;
+    background:#ccc;
+    height:350px;
+}
+
+
+.contact-right{
+    flex:1.2;
+}
+
+.contact-checkbox-group{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px 30px;
+    margin-bottom:25px;
+}
+
+.contact-checkbox-group input{
+    margin-right:5px;
+}
+
+
+.contact-form input,
+.contact-form textarea{
+    width:100%;
+    padding:12px;
+    margin-bottom:15px;
+    border:1px solid #ccc;
+    border-radius:6px;
+    font-size:14px;
+}
+
+.contact-form textarea{
+    height:100px;
+    resize:none;
+}
+
+.contact-send-btn{
+    background:red;
+    color:#fff;
+    border:none;
+    padding:12px 35px;
+    border-radius:25px;
+    font-weight:600;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.contact-send-btn:hover{
+    background:#c40000;
+}
+
+
+@media(max-width:992px){
+
+    .contact-wrapper{
+        flex-direction:column;
+    }
+
+    .contact-divider{
+        display:none;
+    }
+
+    .contact-main-title{
+        font-size:60px;
+    }
+
+}
+
+@media(max-width:600px){
+
+    .contact-main-title{
+        font-size:40px;
+    }
+
+}
+
+.news-carousel-section{
+  padding:70px 8%;
+  background:#f3f3f3;
+  overflow:hidden;
+}
+
+.news-carousel-container{
+  overflow:hidden;
+  position:relative;
+}
+
+.news-carousel-track{
+  display:flex;
+  gap:30px;
+  transition:transform 0.7s ease-in-out;
+}
+
+.news-card{
+  min-width:25%;
+  cursor:pointer;
+}
+
+.news-img{
+  overflow:hidden;
+  border-radius:14px;
+}
+
+.news-img img{
+  width:100%;
+  height:250px;
+  object-fit:cover;
+  border-radius:14px;
+  transition:0.4s ease;
+}
+
+.news-card:hover img{
+  transform:scale(1.08);
+}
+
+.news-card h3{
+  font-size:22px;
+  font-weight:700;
+  margin-top:20px;
+  line-height:1.3;
+}
+
+
+@media(max-width:992px){
+  .news-card{
+    min-width:50%;
+  }
+}
+
+
+@media(max-width:600px){
+  .news-card{
+    min-width:100%;
+  }
+}
