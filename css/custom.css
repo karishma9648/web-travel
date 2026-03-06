@@ -510,3 +510,63 @@ padding:20px;
     font-size: 40px;
   }
 }
+
+.kt-intro-section{
+background:#f2f2f2;
+padding:60px 0;
+left: 0;
+}
+
+.kt-intro-title{
+font-size:32px;
+font-weight:700;
+margin-bottom:20px;
+}
+
+.kt-intro-text{
+font-size:15px;
+line-height:1.8;
+color:#333;
+}
+
+.kt-sub-title{
+font-size:26px;
+font-weight:700;
+margin-top:30px;
+margin-bottom:10px;
+}
+
+.kt-list{
+padding-left:18px;
+}
+
+.kt-list li{
+margin-bottom:6px;
+font-size:15px;
+}
+
+.kt-contact-info{
+margin-top:25px;
+font-size:14px;
+}
+
+.kt-contact-info span{
+color:red;
+display:block;
+}
+
+@media (max-width:768px){
+
+.kt-intro-title{
+font-size:26px;
+}
+
+.kt-sub-title{
+font-size:22px;
+}
+
+.kt-intro-section{
+padding:40px 15px;
+}
+
+}

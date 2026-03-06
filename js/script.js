@@ -83,5 +83,13 @@ function changeHero(index){
   document.querySelectorAll(".travel-hero-categories span").forEach(el => el.classList.remove("active"));
   document.querySelectorAll(".travel-hero-categories span")[index].classList.add("active");
 }
+document.getElementById("backTopBtn").onclick = function () {
+
+window.scrollTo({
+top: 0,
+behavior: "smooth"
+});
+
+};
 
 

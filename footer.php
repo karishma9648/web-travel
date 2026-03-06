@@ -31,7 +31,7 @@
       <!-- QR SECTION -->
       <div class="col-lg-4 col-md-12 text-lg-end text-center">
         <h3 class="tv-footer-heading">Scan to chat</h3>
-        <img src="image/qr.png" class="img-fluid tv-qr-img mt-3" alt="QR">
+        <img src="image/qr.webp" class="img-fluid tv-qr-img mt-3" alt="QR">
       </div>
 
     </div>
@@ -46,8 +46,11 @@
       </p>
       <p class="mb-0">©2025 KanpurTravels, All rights reserved.</p>
     </div>
+    
   </div>
+
 </footer> 
+
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 <script src="js/bootstrap.bundle.min.js"></script>
 <script src="js/script.js"></script>

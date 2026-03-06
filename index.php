@@ -10,6 +10,9 @@
  <?php
   include 'header.php';
  ?>
+ 
+ 
+
  <!-- hero section start -->
   <section class="travel-hero-section">
 
@@ -35,11 +38,7 @@
     </ul>
   </div>
 
-  <!-- Right Side Button -->
-  <div class="travel-side-btn">
-    Book Your Travel
-  </div>
-
+  
 </section>
 <!-- hero section end -->
  <section class="tt-hero-wrap">
@@ -268,7 +267,7 @@
 <div class="col-lg-3 col-md-6">
 <div class="itinerary-card">
 <div class="image-wrapper">
-<img src="image/portrait photos lower/GULBARGA.jpg" class="w-100">
+<img src="image/portrait photos lower/ROHTANG PASS.jpg" class="w-100">
 </div>
 <div class="card-content mt-3">
 <span class="days">2 Days</span>
@@ -384,7 +383,7 @@ data-bs-interval="2500">
 
 <div class="col-lg-3 col-md-6">
 <div class="car-card">
-<img src="image/car photos/Hyundai Verna.jpg" alt="">
+<img src="image/car photos/hyndai verna.jpg" alt="">
 <div class="car-overlay"></div>
 <h4 class="car-name">Hyundai Verna</h4>
 </div>
@@ -400,7 +399,7 @@ data-bs-interval="2500">
 
 <div class="col-lg-3 col-md-6">
 <div class="car-card">
-<img src="image/car photos/Maruti Dzire.jpg" alt="">
+<img src="image/car photos/maruti dezire.jpg" alt="">
 <div class="car-overlay"></div>
 <h4 class="car-name">Maruti Dzire</h4>
 </div>
@@ -706,7 +705,7 @@ a weekend escape, or a multi-day tour — we tailor your trip.
 <div class="col-lg-3 col-md-6">
 <div class="whyus-card">
 <div class="whyus-img">
-<img src="image/w-2.webp">
+<img src="image/w-3.webp">
 </div>
 <div class="whyus-content">
 <h5>Experienced Drivers</h5>
@@ -846,7 +845,10 @@ Everything was organized perfectly from start to finish."
 
 </div>
 </section>
-
+<!-- Right Side Vertical Button -->
+  <div class="tu-book-btn">
+    Book Your Travel
+  </div>
 
 
 <?php

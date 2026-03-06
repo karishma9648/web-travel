@@ -1,5 +1,5 @@
    <!-- Navbar -->
-<nav id="navbar" class="navbar navbar-expand-lg fixed-top">
+<nav id="navbar" class="navbar navbar-expand-lg fixed-top" style="height: 100px;">
 
   <div class="container-fluid position-relative">
 
@@ -9,7 +9,7 @@
     </a>
 
     <!-- Toggle Button -->
-    <button class="navbar-toggler text-white border-0" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+    <button class="navbar-toggler text-white border-0 " type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
       <i class="fa-solid fa-bars"></i>
     </button>
 
