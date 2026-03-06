@@ -54,5 +54,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 <script src="js/bootstrap.bundle.min.js"></script>
 <script src="js/script.js"></script>
+<script src="js/toggle.js"></script>
 </body>
 </html>

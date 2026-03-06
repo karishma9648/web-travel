@@ -9,6 +9,11 @@
 <body>
    <?php include 'header.php'; ?> 
    <!-- content sections start -->
+     <section class="about-hero-section">
+    <div class="about-hero-overlay">
+        <h1 class="about-hero-title">Contact</h1>
+    </div>
+</section>
     <section class="contact-main-section">
 
     <h1 class="contact-main-title">CONTACT US</h1>

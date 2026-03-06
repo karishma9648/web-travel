@@ -17,8 +17,8 @@
   <section class="travel-hero-section">
 
   <!-- Background Video -->
-  <video id="travelHeroVideo" autoplay muted loop playsinline>
-    <source src="image/videos-compressed/360 dd(1).mp4" type="video/mp4">
+  <video id="travelHeroVideo" autoplay controls loop playsinline>
+    <source src="image/videos-compressed/slide1.mp4" type="video/mp4">
   </video>
 
   <!-- Overlay -->
