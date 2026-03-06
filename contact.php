@@ -61,10 +61,10 @@
             <h3 class="contact-subtitle">Inquire About</h3>
 
             <div class="contact-checkbox-group">
-                <label><input type="checkbox"> Partnership opportunities</label>
-                <label><input type="checkbox"> Media/Press</label>
-                <label><input type="checkbox"> General Interest</label>
-                <label><input type="checkbox"> Feedback</label>
+                <label class="option"><input type="radio" name="travel"> Partnership opportunities</label>
+                <label class="option"><input type="radio" name="travel"> Media/Press</label>
+                <label class="option"><input type="radio" name="travel"> General Interest</label>
+                <label class="option"><input type="radio" name="travel"> Feedback</label>
             </div>
 
             <form class="contact-form">

@@ -110,3 +110,27 @@ margin:10px 0;
 }
 
 }
+.travel-options{
+display:flex;
+gap:10px;
+flex-wrap:wrap;
+}
+
+.option{
+cursor:pointer;
+padding:8px 18px;
+background:#ddd;
+border-radius:20px;
+font-weight:600;
+}
+
+.option input{
+display:none;
+}
+
+.option input:checked + span{
+background:black;
+color:white;
+padding:8px 18px;
+border-radius:20px;
+}
