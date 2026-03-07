@@ -1,3 +1,4 @@
+   
    <!-- Navbar -->
    <nav id="navbar" class="navbar navbar-expand-lg fixed-top" style="height: 100px;">
 
@@ -8,10 +9,8 @@
          <img src="image/logo.webp" alt="logo" class="logo-image">
        </a> 
 
-       <!-- Toggle Button -->
-       <!-- <button class="navbar-toggler text-white border-0 " type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
-      <i class="fa-solid fa-bars"></i>
-    </button> -->
+        <!-- Toggle Button --> 
+       
        <button class="navbar-toggler custom-toggler border-0"
          type="button"
          data-bs-toggle="collapse"

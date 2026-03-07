@@ -59,6 +59,7 @@ function hideTTInfo() {
   document.getElementById("ttInfoBox").style.display = "none";
 }
 
+
 // dots.forEach(dot => {
 
   

@@ -18,7 +18,7 @@
 
   <!-- Background Video -->
   <video id="travelHeroVideo" autoplay controls loop playsinline>
-    <source src="image/videos-compressed/slide1.mp4" type="video/mp4">
+    <source src="image/videos-compressed/360 dd(1).mp4" type="video/mp4">
   </video>
 
   <!-- Overlay -->
