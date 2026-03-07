@@ -66,7 +66,7 @@ color:#fff;
   left:-250px;
   width:250px;
   height:100%;
-  background:#0a0a2a;
+  background:#f8f8f9;
   padding-top:60px;
   transition:0.3s;
   z-index:999;
@@ -75,7 +75,7 @@ color:#fff;
 .mobile-sidebar a{
   display:block;
   padding:15px 25px;
-  color:rgb(32, 31, 31);
+  color:rgb(19, 18, 18);
   text-decoration:none;
 }
 
