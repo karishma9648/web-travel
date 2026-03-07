@@ -54,7 +54,7 @@
     left: -280px;
     width: 260px;
     height: 100vh;
-  
+    background: #0a0a2a;
     padding-top: 100px;
     transition: 0.4s;
     z-index: 9999;
@@ -73,6 +73,7 @@
     padding: 12px 25px;
     font-size: 18px;
     text-align: left;
+    background-color: #0c0c0c;
   }
 
 }
