@@ -36,13 +36,13 @@ font-weight:600;
 background:#d60000;
 color:#fff;
 }
-/* Navbar */
+
 .navbar{
   display:flex;
   justify-content:space-between;
   align-items:center;
   padding:15px 30px;
-  background:#0a0a2a;
+ 
   color:white;
 }
 
@@ -52,14 +52,14 @@ color:#fff;
   color:white;
 }
 
-/* hamburger */
+
 .menu-btn{
   font-size:25px;
   cursor:pointer;
   display:none;
 }
 
-/* sidebar */
+
 .mobile-sidebar{
   position:fixed;
   top:0;
@@ -75,7 +75,7 @@ color:#fff;
 .mobile-sidebar a{
   display:block;
   padding:15px 25px;
-  color:white;
+  color:rgb(32, 31, 31);
   text-decoration:none;
 }
 
@@ -103,6 +103,13 @@ color:#fff;
     display:block;
   }
 
+}
+.whatsapp{
+    position: fixed;
+    bottom: 10px;
+    left: 20px;
+
+    
 }
 
 

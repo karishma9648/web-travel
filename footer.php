@@ -1,3 +1,9 @@
+<div class="Whatsapp">
+    <a aria-label="Chat on WhatsApp" href="https://wa.me/91 9580089883"> 
+        <img alt="whatsapp image" src="image/whatsapp.png" height="100px" />
+    </a>
+
+   </div> 
 <footer class="tv-footer-main text-white">
   <div class="container py-5">
     <div class="row align-items-start">
