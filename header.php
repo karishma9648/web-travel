@@ -1,106 +1,98 @@
-   
-   <!-- Navbar -->
-   <!-- <nav id="navbar" class="navbar navbar-expand-lg fixed-top" style="height: 100px;">
 
-     <div class="container-fluid position-relative"> -->
+<nav class="navbar navbar-expand-lg navbar-dark"">
 
-       <!-- Logo -->
-       <!-- <a class="navbar-brand text-white logo" href="#">
-         <img src="image/logo.webp" alt="logo" class="logo-image">
-       </a>  -->
+<div class="container-fluid">
 
-        <!-- Toggle Button --> 
-       
-       <!-- <button class="navbar-toggler custom-toggler border-0"
-         type="button"
-         data-bs-toggle="collapse"
-         data-bs-target="#menu">
+<!-- Logo -->
+<a class="logo" href="#">
+<img src="image/logo.webp" alt="">
+</a>
 
-         <span class="bar"></span>
-         <span class="bar"></span>
-         <span class="bar"></span>
 
-       </button> -->
+<!-- Hamburger -->
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
 
-       <!-- Menu -->
-       <!-- <div class="collapse navbar-collapse justify-content-center mobile-menu" id="menu">
-         <ul class="navbar-nav  text-center" style="font-weight: 600; font-size: 20px; text-align: center; justify-content: center;">
+<i class="bi bi-list" id="menuIcon"></i>
 
-           <li class="nav-item">
-             <a class="nav-link text-white" href="index.php">Home</a>
-           </li>
+</button>
 
-           <li class="nav-item">
-             <a class="nav-link text-white" href="about.php">About Us</a>
-           </li>
 
-           <li class="nav-item">
-             <a class="nav-link text-white" href="terms.php">Terms & Condition</a>
-           </li>
+<div class="collapse navbar-collapse justify-content-center" id="navmenu">
 
-           <li class="nav-item">
-             <a class="nav-link text-white" href="blog.php">Blogs</a>
-           </li>
+<ul class="navbar-nav">
 
-           <li class="nav-item">
-             <a class="nav-link text-white" href="contact.php">Contact Us</a>
-           </li>
-           <li class="nav-item">
-             <a class="btn book-btn1" href="contact.php">Book Now</a>
-           </li>
+<li class="nav-item">
+<a class="nav-link" href="index.php">Home</a>
+</li>
 
-         </ul>
-       </div>
+<li class="nav-item">
+<a class="nav-link" href="about.php">About Us</a>
+</li>
 
-     </div>
-   </nav> -->
-   <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-dark">
-  <div class="container">
+<li class="nav-item">
+<a class="nav-link" href="terms.php">Terms & Condition</a>
+</li>
 
-    <!-- Logo -->
-    <a class="navbar-brand" href="index.php">
-      <img src="image/logo.webp" alt="logo" class="logo-image" height="60">
-    </a>
+<li class="nav-item">
+<a class="nav-link" href="blog.php">Blogs</a>
+</li>
 
-    <!-- Toggle Button -->
-    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="true" aria-label="Toggle navigation">
+<li class="nav-item">
+<a class="nav-link" href="contact.php">Contact Us</a>
+</li>
 
-      <span class="navbar-toggler-icon"></span>
+</ul>
 
-    </button>
+<a href="#" class="book-btn ms-lg-4" id="bookBtn">Book Now</a>
 
-    <!-- Menu -->
-    <div class="navbar-collapse justify-content-center collapse show" id="menu" data-bs-parent="#navbar">
+</div>
 
-      <ul class="navbar-nav mx-auto text-center fw-semibold" style="font-size:20px;">
+</div>
 
-        <li class="nav-item">
-          <a class="nav-link text-white" href="index.php">Home</a>
-        </li>
+</nav>
+<div class="modal fade" id="bookingModal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    
+    <div class="modal-content booking-modal">
 
-        <li class="nav-item">
-          <a class="nav-link text-white" href="about.php">About Us</a>
-        </li>
+      <div class="modal-header border-0">
+        <h5 class="modal-title">Book Your Ride</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
 
-        <li class="nav-item">
-          <a class="nav-link text-white" href="terms.php">Terms &amp; Condition</a>
-        </li>
+      <div class="modal-body">
 
-        <li class="nav-item">
-          <a class="nav-link text-white" href="blog.php">Blogs</a>
-        </li>
+        <form>
 
-        <li class="nav-item">
-          <a class="nav-link text-white" href="contact.php">Contact Us</a>
-        </li>
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Your Name">
+          </div>
 
-       
+          <div class="mb-3">
+            <input type="tel" class="form-control" placeholder="Phone Number">
+          </div>
 
-      </ul>
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Pickup Location">
+          </div>
+
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Drop Location">
+          </div>
+
+          <div class="mb-3">
+            <input type="date" class="form-control">
+          </div>
+
+          <button class="btn book-submit w-100">
+            Book Now
+          </button>
+
+        </form>
+
+      </div>
 
     </div>
-     <a class="btn  btn-hide" href="contact.php">Book Now</a>
 
   </div>
-</nav>
-   <!-- nav section send -->
+</div>

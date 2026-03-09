@@ -1,12 +1,38 @@
-window.addEventListener("scroll", function () {
-  let nav = document.getElementById("navbar");
+/* Scroll navbar color */
 
-  if (window.scrollY > 50) {
-    nav.classList.add("scrolled");
-  } else {
-    nav.classList.remove("scrolled");
-  }
-});
+window.addEventListener("scroll",function(){
+
+let navbar=document.querySelector(".navbar");
+
+if(window.scrollY>50){
+navbar.classList.add("scrolled");
+}
+else{
+navbar.classList.remove("scrolled");
+}
+
+})
+
+
+/* Toggle icon change */
+
+let toggler=document.querySelector(".navbar-toggler");
+let icon=document.getElementById("menuIcon");
+
+toggler.addEventListener("click",function(){
+
+if(icon.classList.contains("bi-list")){
+icon.classList.remove("bi-list");
+icon.classList.add("bi-x");
+}
+else{
+icon.classList.remove("bi-x");
+icon.classList.add("bi-list");
+}
+
+})
+
+
 
 const dots = document.querySelectorAll(".travelx-dot");
 const sideText = document.getElementById("travelxSideText");
@@ -58,64 +84,25 @@ function showTTInfo() {
 function hideTTInfo() {
   document.getElementById("ttInfoBox").style.display = "none";
 }
+const bookBtn = document.getElementById("bookBtn");
+
+const bookingModal = new bootstrap.Modal(document.getElementById("bookingModal"));
+
+/* Click open */
+
+bookBtn.addEventListener("click", function(e){
+e.preventDefault();
+bookingModal.show();
+});
+
+/* Hover open */
+
+bookBtn.addEventListener("mouseenter", function(){
+bookingModal.show();
+});
 
 
-// dots.forEach(dot => {
 
-  
-//   dot.addEventListener("mouseenter", () => {
-//     sideText.innerText = dot.getAttribute("data-text");
-//     sideText.classList.add("show");
-//   });
-
-//   dot.addEventListener("mouseleave", () => {
-//     sideText.classList.remove("show");
-//   });
-
- 
-//   dot.addEventListener("click", () => {
-//     sideText.innerText = dot.getAttribute("data-text");
-//     sideText.classList.add("show");
-
-//     setTimeout(() => {
-//       sideText.classList.remove("show");
-//     }, 2000);
-//   });
-
-// });
-
-// const heroData = [
-//   {
-//     video: "image/videos compressed/360 dd (1).mp4",
-//     title: "India 360",
-//     text: "Explore the beauty of India"
-//   },
-//   {
-//     video: "image/videos compressed/adventure harshit .mp4",
-//     title: "Adventure",
-//     text: "Feel the thrill of mountains & rivers"
-//   },
-//   {
-//     video: "image/videos compressed/nature harshit  (1).mp4",
-//     title: "Nature",
-//     text: "Peaceful landscapes and greenery"
-//   },
-//   {
-//   video: "image/videos compressed/wildlife harshit (1).mp4",
-//     title: "Wildlife",
-//     text: "Explore forests and wild animals"
-//   },
-//   {
-//     video: "image/videos compressed/hertiage fbg.mp4",
-//     title: "Heritage",
-//     text: "Explore the rich cultural heritage of India"
-//   },
-//   {
-//     video: "image/videos compressed/spritual logo (1).mp4",
-//     title: "Spiritual",
-//     text: "Discover temples and divine places"
-//   }
-// ];
 
 
 

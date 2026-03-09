@@ -1,9 +1,9 @@
-<div class="Whatsapp">
-    <a aria-label="Chat on WhatsApp" href="https://wa.me/91 9580089883"> 
-        <img alt="whatsapp image" src="image/whatsapp.png" height="100px" />
-    </a>
 
-   </div> 
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+
+
+
 <footer class="tv-footer-main text-white">
   <div class="container py-5">
     <div class="row align-items-start">
@@ -26,11 +26,11 @@
       <div class="col-lg-4 col-md-6 mb-4 text-md-center">
         <h3 class="tv-footer-heading">Quick links</h3>
         <ul class="tv-footer-links list-unstyled mt-3">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About Us</a></li>
-          <li><a href="#">Terms & Condition</a></li>
-          <li><a href="#">Blogs</a></li>
-          <li><a href="#">Contact Us</a></li>
+          <li><a href="index.php">Home</a></li>
+          <li><a href="about.php">About Us</a></li>
+          <li><a href="terms.php">Terms & Condition</a></li>
+          <li><a href="blog.php">Blogs</a></li>
+          <li><a href="contact.php">Contact Us</a></li>
         </ul>
       </div>
 
@@ -57,9 +57,19 @@
 
 </footer> 
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-<script src="js/bootstrap.bundle.min.js"></script>
-<script src="js/script.js"></script>
-<script src="js/toggle.js"></script>
-</body>
-</html>
+<!-- Floating Contact Icons -->
+<div class="floating-contact">
+    
+    <!-- WhatsApp -->
+    <a href="https://wa.me/918318353233" target="_blank" class="whatsapp-icon">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <!-- Phone -->
+    <a href="tel:+918318353233" class="phone-icon">
+        <i class="fa-solid fa-phone"></i>
+    </a>
+
+</div>
+
+

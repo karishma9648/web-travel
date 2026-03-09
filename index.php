@@ -171,8 +171,8 @@
 
 </div>
 
-<div class="text-center book-btn">
-<button class="btn btn-danger px-4 py-2 rounded-pill">Book Now</button>
+<div class="text-center book-btn2">
+<button class="btn btn-danger px-4 py-2 rounded-pill mt-5">Book Now</button>
 </div>
 
 </div>
@@ -855,5 +855,7 @@ Everything was organized perfectly from start to finish."
   include 'footer.php';
 
   ?>
+  
+
 </body>
 </html>
