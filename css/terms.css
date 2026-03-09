@@ -97,8 +97,8 @@ top:0;
 left:0;
 width:100%;
 height:100vh;
-background:rgb(171, 21, 21);
-
+background:rgb(27, 27, 27);
+color:white;
 display:flex;
 justify-content:center;
 align-items:center;
@@ -127,7 +127,7 @@ margin-left: 20px;
 
 border:none;
 font-size:28px;
-color:rgb(176, 67, 67);
+color:rgb(244, 6, 6);
 
 }
 .navbar-toggler i{
